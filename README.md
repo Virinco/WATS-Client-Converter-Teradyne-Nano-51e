@@ -1,5 +1,5 @@
-﻿# WATS Converter - <Test System>
-A WATS Client converter plugin for importing test data from <Test system> to WATS.
+﻿# WATS Converter - Teradyne Nano 51e
+A WATS Client converter plugin for importing test data from Teradyne Nano 51e to WATS.
 
 ## Getting Started
 
@@ -9,16 +9,22 @@ A WATS Client converter plugin for importing test data from <Test system> to WAT
 
 ## Download
 
-You can download the latest released version of the converter [here](https://github.com/Virinco/<Repository name>/releases/latest). See the Custom Converter section in the [WATS Client Installation Guide](https://wats.com/download) for your version of the WATS Client for how to install a converter.
+You can download the latest released version of the converter [here](https://github.com/Virinco/WATS-Client-Converter-Teradyne-Nano-51e/releases/latest). Here is a guide on how to set up a custom converter in the Wats Client [WATS Client Installation Guide](https://support.virinco.com/hc/en-us/articles/13344321749788-Setting-up-a-custom-converter).
 
 ### Parameters
 
 This converter uses the following parameters:
 
+
 | Parameter         | Default value         | Description                                                    |
 |-------------------|-----------------------|----------------------------------------------------------------|
-| operationTypeCode | 10                    | If log is missing operation code (process code), use this one. |
+| operationTypeCode | 30                    | If log is missing operation code (process code), use this one. |
 | operator          | sysoper               | If log is missing operator, use this one.                      |
+| sequenceVersion   |                       | If log is missing sequence version, use this one.              |
+| sequenceFileName  |                       | If log is missing sequence name, use this one.                 |
+| revision          |                       | If log is missing a revision, use this one.                    |
+| groupSteps        | true                  | It groups numerical tests together in sequenceses if true      |
+
 
 ## Testing
 
