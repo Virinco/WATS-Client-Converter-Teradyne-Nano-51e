@@ -9,7 +9,9 @@ A WATS Client converter plugin for importing test data from Teradyne Nano 51e to
 
 ## Download
 
-You can download the latest released version of the converter [here](https://github.com/Virinco/WATS-Client-Converter-Teradyne-Nano-51e/releases/latest). Here is a guide on how to set up a custom converter in the Wats Client [WATS Client Installation Guide](https://support.virinco.com/hc/en-us/articles/13344321749788-Setting-up-a-custom-converter).
+Download link to Wats Client and installation guide: [WATS Client Installation Guide](https://support.virinco.com/hc/en-us/sections/360003392680-WATS-Client-releases).
+
+You can download the latest released version of the converter [here](https://github.com/Virinco/WATS-Client-Converter-Teradyne-Nano-51e/releases/latest). You can find a step by step guide on how to install the converter [here](https://support.virinco.com/hc/en-us/articles/13344321749788-Setting-up-a-custom-converter). 
 
 ### Parameters
 
